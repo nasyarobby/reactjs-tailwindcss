@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.menu {
+    @apply flex w-full rounded-lg rounded-t-none justify-between font-semibold text-white;
+}
+
+.xmenu-item-content {
+    display:none;
+}
+
+.menu-item:hover .menu-item-content {
+    display:block
+}
